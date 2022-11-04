@@ -1,0 +1,121 @@
+<div class="first-section">
+    <div class="container">
+        
+            <div class="first">
+                <img [src]="imageUrl" alt="" class="image">
+            </div>
+           <h1 STYLE="text-align:center;color:white">Harsh Srivastava</h1>
+           <p STYLE="text-align:center;color:white">WEB DEVLOPER,COMPETITIVE PROGRAMMER</p>            
+    </div>
+</div>
+<div class="container">
+   <div class="card1">
+    <div class="about">
+        <h3>About</h3>
+        <hr>
+        <p> Hello I am Harsh Srivastava . I am from Mirzapur UttarPradesh.
+            I did my schooling from my home town. After that i completed 
+            my diploma from Government Polytechnic Aurai currently I pursuing
+            Btech from Ajay Kumar Garg Engineering Collage Ghaziabad. <br><br>
+            
+            I like to reading books, playing Cricket. I am also intrested
+            in Bhagwat Gita and Ancient Novel.
+
+            
+        </p>
+    </div>
+    <div class="basic">
+        <h3>Basic Information</h3>
+        <hr>
+        <span style="font-weight:600">AGE :</span> <span style="margin-left:200px">23</span><br><br>
+        <span style="font-weight:600">EMAIL :</span><span style="margin-left:185px">srivastavaharsh456@gmail.com</span><br><br>
+        <span style="font-weight:600">PHONE :</span><span style="margin-left:180px">9793313045</span><br><br>
+        <span style="font-weight:600">ADDRESS:</span><span style="margin-left:170px">Gyanpur Bhadhoi 221401 </span><br><br>
+        
+    </div>
+       
+   </div>
+</div>
+          <h3 style="text-align:center" class="mt-4">Education</h3>
+          <hr class="container">
+          <div class="card2 container mt-4">
+            <div class="card border-primary mb-3" style="max-width: 15rem;">
+                <div class="card-header">High School</div>
+                <div class="card-body text-primary">
+                  <h5 class="card-title">Aggregate Percentage 66.6% </h5>
+                  <p class="card-text">I did my HighSchool From Gurunanak Inter Collage (U P)</p>
+                </div>
+            </div>
+            <div class="card border-secondary mb-3" style="max-width: 15rem;">
+                <div class="card-header">Intermediate</div>
+                <div class="card-body text-secondary">
+                  <h5 class="card-title">Aggregate Percentage 64.5%</h5>
+                  <p class="card-text">I did my Intermediate From Gurunanak Inter Collage (U P)</p>
+                </div>
+            </div>
+            <div class="card border-success mb-3" style="max-width: 15rem;">
+                <div class="card-header">Diploma</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Aggregate Percentage 70%</h5>
+                  <p class="card-text">I did my Diploma From Government Polytechnic Aurai (U P)</p>
+                </div>
+            </div>
+            <div class="card border-danger mb-3" style="max-width: 15rem;">
+                <div class="card-header">Graduation(Btech)</div>
+                <div class="card-body text-danger">
+                  <h5 class="card-title">Aggregate Percentage 65%</h5>
+                  <p class="card-text">currently persuing Btech form AKGEC Ghaziabad</p>
+                </div>
+            </div>
+          </div>
+          
+
+          <section id="skill">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h1>Abilities</h1>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row">
+                    <h2>Skills</h2>
+                    <div class="col-md-6">
+                        <ul>
+                            <li *ngFor="let item of skills" class="fs-6">Frontend:{{item.frontend}}</li>
+                            <li *ngFor="let item of skills" class="fs-6">Server:{{item.backend}}</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li *ngFor="let item of skills" class="fs-6">Programming:{{item.programming}}</li>
+                            <li *ngFor="let item of skills" class="fs-6">Database:{{item.database}}</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h2>Language</h2>
+                    <div class="col-md-6">
+                        <li *ngFor="let item of skills" class="fs-5">{{item.lang[0]}}</li>
+                    </div>
+                    <div class="col-md-6">
+                        <li *ngFor="let item of skills" class="fs-5">{{item.lang[1]}}</li>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h2>Tools</h2>
+                    <div class="col-md-6">
+                        <li *ngFor="let item of skills" class="fs-6">{{item.tools.slice(0,1)}}</li>
+                        <li *ngFor="let item of skills" class="fs-6">{{item.tools.slice(1,2)}}</li>
+                        <li *ngFor="let item of skills" class="fs-6">{{item.tools.slice(2,3)}}</li>
+                    </div>
+                    <div class="col-md-6">
+                        <li *ngFor="let item of skills" class="fs-6">{{item.tools.slice(3,4)}}</li>
+                        <li *ngFor="let item of skills" class="fs-6">{{item.tools.slice(4,5)}}</li>
+                        <li *ngFor="let item of skills" class="fs-6">{{item.tools.slice(5,6)}}</li>
+                    </div>
+                </div>
+            </div>
+        </section>

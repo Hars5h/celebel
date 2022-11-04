@@ -1,0 +1,59 @@
+.first-section{
+    background-color: blue;
+    padding: 50px;
+    filter: grayscale(60%);
+}
+.first{ 
+   /* background-color: red; */
+   height:150px;
+   width:150px;
+   margin:auto;
+   border-radius: 30%;
+   
+
+}
+.image{
+    height:150px;
+    width:150px;  
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+   
+}
+.card1 {
+    padding: 20px;
+    margin-top: 50px;
+    height:250px;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.about{
+    background-color: white;
+    width:50%;
+}
+.basic{
+    background-color: white;
+    width:45%;
+    margin-left: 5%;
+}
+.card2{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#skill{
+    
+
+     justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+     padding: 10px 0px; 
+    color: rgb(66, 66, 185);
+}
